@@ -1,0 +1,154 @@
+# ForgeVM MVP 로드맵 권리 고지 | ForgeVM MVP Roadmap Rights Notice
+
+> **상태 | Status:** Published with `FVM-MVP-ROADMAP-DP-1.0`  
+> **적용 범위 | Scope:** 이 저장소의 MVP 로드맵과 그 안의 독창적인 문장, 표, 도식 및 구성  
+> **비적용 범위 | Excluded:** ForgeVM source code, QEMU, third-party software, product names and third-party assets  
+> **주의 | Notice:** 법률 자문이 아니며, 공개 전 관할권별 전문가 검토가 필요함
+
+## 권리 보유 고지 | Reservation of rights
+
+Copyright © 2026 Facta-Leopard. All Rights Reserved.
+
+별도의 서면 허가 또는 강행 법규가 허용하는 경우를 제외하고, 이
+저장소의 문서 표현을 복제, 배포, 번역, 개작, 재게시, 상업화하거나
+파생 문서를 만들 수 있는 라이선스를 부여하지 않는다. 소유자가 승인한
+검토를 위해 문서를 열람하고 그 과정에 필수적인 일시적 사본을 만드는
+행위만 허용한다.
+
+Except where separately authorized in writing or required by applicable law,
+no license is granted to reproduce, distribute, translate, adapt, republish,
+commercialize, or create derivative documents from the protected expression in
+this repository. Permission is limited to viewing the documents for an
+owner-authorized review and making transient copies technically necessary for
+that review.
+
+이 문서의 공개만으로 명시적 또는 묵시적 특허 라이선스를 부여하지
+않는다. 다만 특허로 보호되지 않는 아이디어를 타인이 독립적으로
+구현하는 행위까지 이 문서 라이선스로 금지할 수 있다는 뜻은 아니다.
+
+Publication of this document grants no express or implied patent license.
+This does not mean that this documentation license can prohibit independent
+implementation of ideas that are not protected by a patent or another
+applicable right.
+
+공개 저장소나 호스팅 서비스에 게시할 경우에는 해당 서비스 약관이
+요구하는 열람, 표시 또는 fork 권한이 추가로 적용될 수 있다. 이 고지는
+그 서비스 약관을 무효화하지 않는다.
+
+If the documents are posted to a public repository or hosting service, the
+viewing, display, or forking permissions required by that service's terms may
+also apply. This notice does not override those platform terms.
+
+## 아이디어와 개념의 한계 | Limits of protecting ideas and concepts
+
+이 고지는 로드맵의 구체적인 문장, 표, 도식, 선택과 배열 같은
+저작권으로 보호될 수 있는 표현을 대상으로 한다. 저작권은 그 문서에
+설명된 아이디어, 시스템, 절차, 기능, 방법, 알고리즘 또는 기술 개념
+자체에 대한 독점권을 만들지 않는다.
+
+This notice applies to copyrightable expression such as the roadmap's specific
+text, tables, diagrams, selection, and arrangement. Copyright does not create
+an exclusive right in the underlying ideas, systems, procedures, functions,
+methods, algorithms, or technical concepts described by the documents.
+
+따라서 제3자가 문서 표현을 복제하지 않고 같은 아이디어를 독립적으로
+구현하는 행위를 이 고지만으로 막을 수는 없다. 기술적 발명 자체를
+보호하려면 특허 가능성을 별도로 검토해야 한다.
+
+This notice alone cannot prevent a third party from independently implementing
+the same idea without copying the protected expression. Protecting a technical
+invention itself requires a separate patentability analysis.
+
+## 코드 라이선스와의 분리 | Separation from the code license
+
+이 고지는 ForgeVM-owned source code에 적용되는 기존 MIT License를
+변경하지 않는다. MIT License가 적용된 코드는 그 라이선스 조건에 따라
+사용, 복제, 수정, 병합, 게시, 배포, 재라이선스 및 판매가 허용된다.
+따라서 MIT 코드를 공개하면서 타인의 합법적인 재사용을 전면 금지할 수는
+없다.
+
+This notice does not change the existing MIT License for ForgeVM-owned source
+code. Code covered by the MIT License may be used, copied, modified, merged,
+published, distributed, sublicensed, and sold subject to that license.
+Accordingly, publishing code under MIT cannot prohibit all lawful reuse by
+others.
+
+QEMU 및 제3자 구성 요소에는 각각의 upstream license가 적용되며, 이
+고지는 그 권리를 확대하거나 제한하지 않는다.
+
+QEMU and third-party components remain governed by their upstream licenses.
+This notice neither expands nor restricts those rights.
+
+## 특허 공개 전 확인 | Review before patent-sensitive disclosure
+
+이 로드맵에 신규하고 비자명한 기술적 발명이 포함될 가능성이 있고 그
+발명 자체의 독점적 보호를 원한다면, 공개 게시 전에 대한민국
+변리사·변호사와 우선 출원을 검토해야 한다. 대한민국에는 일정한
+공지예외 제도가 있지만, 지식재산처는 해외 일부 관할권에서 공개 전
+출원을 요구할 수 있으므로 공개 전에 먼저 출원하는 방식을 권고한다.
+
+If the roadmap may contain a new and non-obvious technical invention and the
+owner wants exclusive protection for the invention itself, consult qualified
+Korean patent counsel about filing before public disclosure. Korea provides a
+limited disclosure exception, but the Korean Intellectual Property Office
+warns that some foreign jurisdictions may require filing before disclosure and
+recommends filing first.
+
+공개 전 최소 확인 항목:
+
+Minimum checks before publication:
+
+1. 특허 후보가 될 수 있는 신규 기술을 별도 비공개 목록으로 분리한다.  
+   Separate potentially patentable technical inventions into a confidential
+   inventory.
+2. 국내 및 해외 출원 필요성과 공개 시점을 전문가와 검토한다.  
+   Review domestic and foreign filing needs and disclosure timing with
+   qualified counsel.
+3. 출원 전에는 특허 핵심을 공개 문서, issue, 영상 또는 발표에 넣지
+   않는다.  
+   Before filing, do not place patent-critical details in public documents,
+   issues, videos, or presentations.
+4. 작성일, 원본 hash, 변경 history와 기여자 동의를 보존한다.  
+   Preserve creation dates, original hashes, change history, and contributor
+   agreements.
+
+## 명칭과 브랜드 | Name and brand
+
+`ForgeVM` 명칭과 향후 logo의 출처 식별 기능은 저작권과 별개로 상표
+검토 대상이 될 수 있다. 등록되지 않은 명칭에 `®`를 사용하지 않는다.
+상표 등록 여부와 대상 상품·서비스는 공개 전에 별도로 결정한다.
+
+The source-identifying function of the `ForgeVM` name and any future logo may
+be considered separately under trademark law. Do not use `®` for an
+unregistered mark. Decide the filing jurisdictions and relevant goods or
+services before publication.
+
+## 오픈소스 표시에 대한 경계 | Open-source labeling boundary
+
+이 문서에 대한 `All Rights Reserved` 고지는 문서 자체를 오픈 콘텐츠로
+만들지 않는다. ForgeVM code가 MIT로 오픈소스라는 사실과, 설계 문서가
+제한된 권리 상태라는 사실을 명확히 분리해 표시해야 한다.
+
+This `All Rights Reserved` notice does not make the documents open content.
+Public materials must clearly distinguish MIT-licensed ForgeVM code from
+restricted design documentation.
+
+코드 사용을 비상업적 용도로 제한하거나 경쟁 사용을 금지하면 해당
+코드는 일반적인 Open Source Definition을 충족하지 않는다. 그러한
+제한이 필요하다면 “오픈소스”가 아닌 별도의 source-available 전략으로
+결정해야 한다.
+
+Restricting code to noncommercial use or prohibiting competitive use would not
+satisfy the usual Open Source Definition. If those restrictions are required,
+they must be adopted as a separate source-available strategy rather than
+described as open source.
+
+## 공식 참고자료 | Official references
+
+- [한국 지식재산처: 공지예외적용 FAQ](https://www.kipo.go.kr/kcall/faqRead.do?curMenuCd=SCD0300082&pgmId=PGM0000014&pgmSeq=5&sysCd=SCD03)
+- [한국 지식재산처: 공개 전에 우선 출원을 권고한 안내](https://www.kipo.go.kr/ko/kpoBultnDetail.do?aprchId=BUT0000029&menuCd=SCD0200049&ntatcSeq=19514&sysCd=SCD02)
+- [한국저작권위원회: 아이디어·표현 이분법 상담정보](https://www.copyright.or.kr/business/counsel/auto-advice-service/practice/detail.do?categorySeq=0&categoryType=&counselSeq=3314&parCategorySeq=)
+- [WIPO: Patents FAQ — defensive publication and prior art](https://www.wipo.int/en/web/patents/faq_patents)
+- [WIPO: What Can I Protect with a Copyright?](https://www.wipo.int/en/web/copyright/protection)
+- [GitHub Docs: Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
+- [Open Source Initiative: The Open Source Definition](https://opensource.org/osd)
