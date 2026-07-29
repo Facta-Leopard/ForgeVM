@@ -1,6 +1,6 @@
 # ForgeVM MVP 공개 기록 | ForgeVM MVP Publication Record
 
-> **기록 상태 | Record status:** Approved for public publication  
+> **기록 상태 | Record status:** Published  
 > **문서 ID | Document ID:** `FVM-MVP-ROADMAP-DP-1.0`  
 > **최초 공개일 | First publication date:** 2026-07-30 KST  
 > **권리자 | Rights holder:** Facta-Leopard
@@ -44,20 +44,22 @@ became public.
 
 | Field | Recorded value |
 |---|---|
-| Publication decision | `APPROVED_FOR_PUBLICATION` |
+| Publication decision | `PUBLISHED` |
 | Public repository URL | `https://github.com/Facta-Leopard/ForgeVM` |
-| First public commit SHA | `TBD` |
-| Signed/annotated release tag | `NOT_CREATED` |
-| GitHub release URL | `NOT_CREATED` |
-| First public timestamp (UTC) | `TBD` |
+| First public commit SHA | `32e49390d48082f2d8e9d2290ceda9e063850db9` |
+| Initial commit timestamp (UTC) | `2026-07-29T19:29:18Z` |
+| First public accessibility verified (UTC) | `2026-07-29T20:13:21Z` |
+| First public accessibility verified (KST) | `2026-07-30T05:13:21+09:00` |
+| Annotated release tag | `mvp-roadmap-v1.0` |
+| GitHub release URL | `https://github.com/Facta-Leopard/ForgeVM/releases/tag/mvp-roadmap-v1.0` |
 | Independent archive URL and timestamp | `NOT_CREATED` |
 | Published README SHA-256 | `0714c4e2d5320435b282d09124c0b1a0885e46a2e3984cf20a9a51ab8f4698ba` |
 | Published LICENSE SHA-256 | `7b45ac8eb414d82235fc0888c7ea665feff56a0c4e12dc69943d06c7f974c749` |
 
-## 승인 후 공개 절차 | Publication procedure after approval
+## 실행한 공개 절차 | Executed publication procedure
 
-1. 별도 비공개 체크리스트에서 patent-first 후보가 남아 있지 않은지
-   확인하고 소유자가 공개를 명시적으로 승인한다.  
+1. 별도 비공개 체크리스트에서 공개 후보를 분리하고 소유자가 공개를
+   명시적으로 승인했다.  
    Confirm through the separate confidential checklist that no unresolved
    patent-first candidate remains, then obtain explicit owner approval.
 2. `README.md`의 status와 document ID를 published version으로 바꾸고
@@ -67,17 +69,17 @@ became public.
 3. 모든 공개 파일의 SHA-256을 다시 계산하고 `SHA256SUMS`를 갱신한다.  
    Recompute SHA-256 for every public file and update `SHA256SUMS`.
 4. GitHub 공개 저장소의 first commit으로 게시하고 annotated tag와
-   release를 만든다.  
+   release를 만들었다.  
    Publish as the first commit of a public GitHub repository and create an
    annotated tag and release.
 5. public URL, commit SHA, tag, release와 timestamp를 이 표에 기록한
-   second commit을 만든다. 최초 공개본은 first commit과 release asset로
+   metadata commit을 만든다. 최초 공개본은 first commit과 release로
    그대로 보존한다.  
    Record the public URL, commit SHA, tag, release, and timestamp here in a
-   second commit. Preserve the first publication unchanged as the initial
-   commit and release asset.
-6. 가능한 경우 독립적인 timestamped archive에도 같은 release file을
-   보존하고 URL을 기록한다.  
+   metadata commit. Preserve the first publication unchanged as the initial
+   commit and release.
+6. 독립적인 timestamped archive는 아직 만들지 않았으며, 만들 경우 같은
+   release를 보존하고 URL을 위 표에 기록한다.  
    Where practical, preserve the same release file in an independent
    timestamped archive and record its URL.
 
